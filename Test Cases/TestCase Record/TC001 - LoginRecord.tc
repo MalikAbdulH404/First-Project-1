@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 - LoginRecord</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5276a7a4-1ee3-4706-b67d-609954ed0bc9</testCaseGuid>
+</TestCaseEntity>

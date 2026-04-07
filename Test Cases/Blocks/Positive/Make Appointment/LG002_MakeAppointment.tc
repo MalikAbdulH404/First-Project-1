@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG002_MakeAppointment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8275f91c-2a4f-41b6-a8b5-05eaa22450a6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c198d9b-e934-474e-8606-940403aa2df2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c1cff33-1983-4834-acbf-b143a23f97bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d89f313f-5067-442c-a2a9-65556f0721b7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>57ffafba-75fd-485d-9995-c0711cf38bdf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Seoul CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>2c198d9b-e934-474e-8606-940403aa2df2</id>
+      <masked>false</masked>
+      <name>Facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Aplikasi'</defaultValue>
+      <description></description>
+      <id>3c1cff33-1983-4834-acbf-b143a23f97bf</id>
+      <masked>false</masked>
+      <name>Comment</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>d89f313f-5067-442c-a2a9-65556f0721b7</id>
+      <masked>false</masked>
+      <name>Readmission</name>
+   </variable>
+   <variable>
+      <defaultValue>'Medicaid'</defaultValue>
+      <description></description>
+      <id>57ffafba-75fd-485d-9995-c0711cf38bdf</id>
+      <masked>false</masked>
+      <name>Programs</name>
+   </variable>
+</TestCaseEntity>
