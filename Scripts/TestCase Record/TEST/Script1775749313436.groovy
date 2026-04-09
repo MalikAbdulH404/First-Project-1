@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.openBrowser('')
+
