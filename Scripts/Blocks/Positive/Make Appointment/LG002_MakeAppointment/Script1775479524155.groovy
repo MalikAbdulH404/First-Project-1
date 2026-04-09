@@ -50,7 +50,7 @@ switch (Programs) {
         break
 }
 
-WebUI.click(findTestObject('Page_MakeAppointment/input_Visit_Date'))
+WebUI.click(findTestObject('Page_MakeAppointment/input_Visit_Date'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Record/MakeAppointment_Record/td_28'))
 
@@ -70,22 +70,23 @@ if (Readmission == true) {
 WebUI.comment('Sistem memverifikasi Program')
 
 select_radio = Programs
+
 switch (select_radio) {
-	case 'Medicare':
-		WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/p_Program'), Programs)
+    case 'Medicare':
+        WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/p_Program'), Programs)
 
-		break
-	case 'Medicaid':
-		WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/p_Program'), Programs)
+        break
+    case 'Medicaid':
+        WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/p_Program'), Programs)
 
-		break
-	case 'None':
-		WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/p_Program'), Programs)
+        break
+    case 'None':
+        WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/p_Program'), Programs)
 
-		break
-	default:
-		WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/p_Program'), 'None')
+        break
+    default:
+        WebUI.verifyElementText(findTestObject('Page_AppointmentConfirmation/p_Program'), 'None')
 
-		break
+        break
 }
 
