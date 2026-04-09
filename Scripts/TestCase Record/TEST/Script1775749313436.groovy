@@ -25,3 +25,5 @@ WebUI.closeBrowser()
 
 WebUI.acceptAlert()
 
+WebUI.authenticate('', '', '', 0)
+
