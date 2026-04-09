@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 //def nama = "Belajar Katalon"
 //println (nama)
+def objectRepo = 'Belajar Katalon'
 
-def objectRepo = "Belajar Katalon"
-WebUI.verifyMatch(objectRepo, "Belajar katalon", true)
+WebUI.verifyMatch(objectRepo, 'Belajar katalon', true)
+
+WebUI.openBrowser('')
 
