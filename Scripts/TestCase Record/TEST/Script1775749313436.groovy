@@ -21,3 +21,7 @@ WebUI.callTestCase(findTestCase('Blocks/Reusable Test Case/Open Browser'), [:], 
 
 WebUI.openBrowser('')
 
+WebUI.closeBrowser()
+
+WebUI.acceptAlert()
+
